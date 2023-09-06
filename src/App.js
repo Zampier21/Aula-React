@@ -1,7 +1,11 @@
-import RoutesApp from './routes';
+import React from 'react';
+import Counter from './counter';
 
-export default function App (){
+export default function App(){
   return(
-    <RoutesApp/>
+    <div>
+      <Counter/>
+    </div>
   );
 }
+
